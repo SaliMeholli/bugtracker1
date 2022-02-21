@@ -3,7 +3,6 @@ import {useState} from 'react';
 import './CurrentIssue.css'
 
 function CurrentIssue() {
-  const [addIssue, setAddIssue] = useState(true);
   return (
     <div className="current-issues">
         <div className='indv-issue'>
