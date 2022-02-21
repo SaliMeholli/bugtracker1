@@ -1,0 +1,34 @@
+.current-issues p {
+    text-align: left;
+    color: #707070;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.current-issues p span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.current-issues p span,
+.current-issues .description {
+    color: #959595;
+}
+
+ .current-issues .indv-issue {
+     position: relative;
+ }
+.current-issues .close-issue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #959595;
+}
+
+.current-issues hr {
+    border: none;
+    background-color: #989898;
+    height: 1px;
+    margin-top: 20px;
+}

@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  
+}
+body {
+  background-color: rgb(230, 230, 255);
+
+}
+
+* {
+  font-family:'Roboto', sans-serif ;
+}
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(87, 87, 255);
+}
+
+.grey-card-container {
+  background-color: #f6f6f6;
+  max-width: 725px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 40px 50px 30px;
+  max-height: 360px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.view-button {
+  border-radius: 5px;
+  background-color: #fff;
+  color: #007ae6;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.active {
+  background-color: rgb(255, 88, 88);
+}
+
+
+.view-selection-div button {
+  margin: 50px 100px 0 100px;
+}
